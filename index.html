@@ -7,12 +7,16 @@
 
   <body>
     <div id="app">
-      <img src="https://picsum.photos/id/22/400/300" alt="photo-1" />
-      <img src="https://picsum.photos/id/20/400/300" alt="photo-2" />
-      <img src="https://picsum.photos/id/53/400/300" alt="photo-3" />
-      <img src="https://picsum.photos/id/101/400/300" alt="photo-4" />
-      <img src="https://picsum.photos/id/288/400/300" alt="photo-5" />
-      <img src="https://picsum.photos/id/128/400/300" alt="photo-6" />
+      <div class="slideshow-container">
+        <div class="media-container">
+          <div class="action previous"><</div>
+          <div class="images">
+            <img class="image-current" alt="image" />
+          </div>
+          <div class="action next">></div>
+        </div>
+        <div class="indicator-container"></div>
+      </div>
     </div>
     <script src="src/index.js"></script>
   </body>
