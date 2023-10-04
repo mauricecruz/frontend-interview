@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "postcss": "7.0.14",
+    "postcss": "8.4.31",
     "postcss-nesting": "7.0.0"
   },
   "devDependencies": {
